@@ -5,10 +5,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Google fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+    <!-- custom CSS style sheet -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
 </head>
@@ -16,14 +22,18 @@
 <body>
     <div class="container">
         <nav class="navbar navbar-expand-sm navbar-light bg-light rounded">
-            <a href="#" class="navbar-brand font-weight-bold text-secondary">Resume Tracker</a>
+            <a href="index.html" class="navbar-brand font-weight-bold text-secondary brand-icon"><i
+                    class="fas fa-plus"></i> New
+                Entry</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#resume-navbar-menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="resume-navbar-menu">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="#" class="nav-link mr-3 font-weight-bold small">Database</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link mr-3 font-weight-bold small">Masters</a></li>
+                    <li class="nav-item"><a href="database.html"
+                            class="nav-link mr-3 font-weight-bold small">Database</a></li>
+                    <li class="nav-item"><a href="masters.html" class="nav-link mr-3 font-weight-bold small">Masters</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -32,30 +42,30 @@
             <form class="container">
                 <div class="form-row">
                     <div class="form-group col-md-2">
-                        <label for="candidate-name" class="small font-weight-bold">Candidate Name</label>
+                        <label for="candidate-name" class="small font-weight-normal">Candidate Name</label>
                         <input type="text" name="candidate-name" id="candidate-name"
-                            class="form-control form-control-sm">
+                            class="form-control form-control-sm small">
                     </div>
 
                     <div class="form-group col-md-2">
-                        <label for="contact-number" class="small font-weight-bold">Contact Number</label>
+                        <label for="contact-number" class="small font-weight-normal">Contact Number</label>
                         <input type="text" name="contact-number" id="contact-number"
                             class="form-control form-control-sm">
                     </div>
 
                     <div class="form-group col-md-2">
-                        <label for="open-position" class="small font-weight-bold">Position</label>
+                        <label for="open-position" class="small font-weight-normal">Position</label>
                         <input type="text" name="open-position" id="open-position" class="form-control form-control-sm">
                     </div>
 
                     <div class="form-group col-md-2">
-                        <label for="position-status" class="small font-weight-bold">Status</label>
+                        <label for="position-status" class="small font-weight-normal">Status</label>
                         <input type="text" name="position-status" id="position-status"
                             class="form-control form-control-sm">
                     </div>
 
                     <div class="form-group col-md-2">
-                        <label for="resume-source" class="small font-weight-bold">Source</label>
+                        <label for="resume-source" class="small font-weight-normal">Source</label>
                         <input type="text" name="resume-source" id="resume-source" class="form-control form-control-sm">
                     </div>
 

@@ -1,0 +1,13 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type="text"] {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.brand-icon {
+    font-size: 14px;
+}
